@@ -1,0 +1,1 @@
+gcc --shared -o julia_set.so -fPIC julia_set.c && python3 julia_set_c.py
